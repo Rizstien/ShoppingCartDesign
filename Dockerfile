@@ -1,5 +1,5 @@
 FROM openjdk:17
-COPY ./out/production/ShoppingCartDesign/ /tmp
+COPY ./ShoppingCartDesign/ /tmp
 WORKDIR /tmp
 ENTRYPOINT ["java","ShoppingCartDesign"]
 
